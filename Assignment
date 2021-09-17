@@ -1,0 +1,38 @@
+const fs = require("fs");
+
+
+// ------------------- ADD LINE IN PACKAGE.JSON ------------------- 
+
+// fs.readFile("./package.json", (err, data) => {
+//     if (err) {
+//         console.log(err);
+//     }
+//     else {
+//         let jdata = JSON.parse(data);
+//         jdata.owner = "abc";
+//         let sdata = JSON.stringify(jdata);
+//         fs.writeFile("./package.json", sdata, (err) => {
+//             if (err) {
+//                 console.log(err);
+//             }
+//         });
+//     }
+// });
+
+   
+// ------------------- RENAME FILE / FOLDER -------------------  
+
+// fs.rename('hello.txt', 'world.txt', () => {
+//   getCurrentFilenames();
+// });
+
+// function getCurrentFilenames() {
+//   fs.readdirSync(__dirname).forEach(file => {
+//     console.log(file);
+//   });
+// }
+
+
+// ------------------- DELETE FOLDER WITH ITS CONTENT ------------------- 
+
+fs.rmdirSync("./abc", { recursive: true });
