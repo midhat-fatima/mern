@@ -1,3 +1,28 @@
+// user.json
+
+[
+	{
+		"username": "admin1",
+		"password": "123"
+	},
+	{
+		"username": "admin2",
+		"password": "123"
+	},
+	{
+		"username": "admin3",
+		"password": "123"
+	},
+	{
+		"username": "admin4",
+		"password": "123"
+	},
+	{
+		"username": "admin5",
+		"password": "123"
+	}
+]
+
 // login.html page
 
 <h1>LOGIN</h1>
